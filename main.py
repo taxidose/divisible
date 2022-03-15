@@ -33,5 +33,5 @@ for permutation in permutations(numbers_1_to_9, len(numbers_1_to_9)):
 if magic_number_counter == 1:
     print("... no :)")
 
-if magic_number_counter == 0:
+elif magic_number_counter == 0:
     print("No number found :(")
