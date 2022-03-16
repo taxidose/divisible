@@ -25,13 +25,13 @@ for permutation in permutations(numbers_1_to_9, len(numbers_1_to_9)):
                 magic_number_counter += 1
                 if magic_number_counter == 1:
                     print(f"First number found: {new_number}")
-                    print(f"Checking if second number exists...")
+                    print("Checking if second number exists...")
                 elif magic_number_counter == 2:
-                    print(f"Second number found o.O")
+                    print("Second number found o.O")
 
 
 if magic_number_counter == 1:
     print("... no :)")
 
-elif magic_number_counter == 0:
-    print("No number found :(")
+elif magic_number_counter == 0 or magic_number_counter > 1:
+    print("[ERROR] No number or too many numbers found :(")
