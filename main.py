@@ -32,6 +32,5 @@ for permutation in permutations(numbers_1_to_9, len(numbers_1_to_9)):
 
 if magic_number_counter == 1:
     print("... no :)")
-
-elif magic_number_counter == 0 or magic_number_counter > 1:
+else:
     print("[ERROR] No number or too many numbers found :(")
