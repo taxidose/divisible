@@ -28,6 +28,9 @@ for permutation in permutations(numbers_1_to_9, len(numbers_1_to_9)):
                     print("Checking if second number exists...")
                 elif magic_number_counter == 2:
                     print("Second number found o.O")
+                    
+        else:
+            break
 
 
 if magic_number_counter == 1:
